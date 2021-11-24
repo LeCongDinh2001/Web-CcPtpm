@@ -1,0 +1,64 @@
+#tendn{
+    
+    width: 395px;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#mk{
+    width: 395px;
+    height: 35px;
+    margin-top: 10px;
+   
+}
+#qmk{
+    width: 100px;
+    height: 35px;
+    color:black;
+    background-color: white;
+    margin-left: 199px;
+    margin-top: 20px;
+    text-align: center;
+}
+a{
+    width: 100px;
+    height: 35px;
+    color:black;
+    background-color: white;
+}
+#dk{
+    width: 100px;
+    height: 35px;
+    color:black;
+    background-color: white;
+    margin-top: 20px;
+   
+    text-align: center;
+}
+body{
+    margin:0;
+    padding: 0;
+    background-color: rgba(15, 50, 167, 0.849);
+}
+.center{
+    margin: 5px;
+    padding-left:400px;
+    padding-right: 100px;
+}
+h1{
+    margin-left: 100px;
+}
+.btn{
+    margin-top: 20px;
+    margin-bottom: 5px;
+    width: 395px;
+    height: 36px;
+    border: none;
+    border-radius: 3px;
+    line-height: 36px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 13px;
+    background-color: #e8171f;
+    cursor: pointer;
+}

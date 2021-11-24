@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+<title>thay đổi mật khẩu</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="thaydoi.css">
+<script>
+    function validate()
+    {
+        var matkhau=document.getElementById("mkm").value;
+            if(matkhau=="")
+            {
+                document.getElementById("checkmk").innerHTML="mật khẩu bỏ trống";
+                return false;
+            }
+            else{
+                document.getElementById("checkmk").innerHTML="";
+            }
+            var nhaplaimk=document.getElementById("nlmk").value;
+            if(nhaplaimk=="")
+            {
+                document.getElementById("checknlmk").innerHTML="mật khẩu bỏ trống";
+                return false;
+            }
+            else{
+                document.getElementById("checknlmk").innerHTML="";
+            }
+            if(nhaplaimk!=matkhau)
+            {
+                document.getElementById("checknlmk").innerHTMLinnerHTML="mật khẩu không đúng";
+                return false;
+            }
+    }
+</script>
+</head> 
+<body>
+<div class="main">
+    <div class ="center">
+        <h2>THAY ĐỔI MẬT KHẨU</h2>
+        <div class="line" >
+            <input id="mk" type="text"  placeholder="mật khẩu cũ" colspan>
+          
+        </div>
+        <div class="line" >
+            <input id="mkm" type="password"  placeholder="mật khẩu mới" colspan>
+            <p style="color:red;" id="checkmkm"></p>
+        </div>
+        <div class="line" >
+            <input id="nlmk" type="password"  placeholder="nhập lại mật khẩu" colspan>
+            <p style="color:red;" id="checknlmk"></p>
+        </div>
+        <div class="line">
+            <input id="email" type="email" placeholder="Email">
+        </div>
+        <div class="line">
+            <input id="xn" type="submit" value="xác Nhận"  class="btn">
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
